@@ -149,6 +149,7 @@ header:after {
 .masonry figure {
   position: relative;
   border: 4px solid white;
+  cursor: pointer;
 }
 
 .masonry img {
@@ -213,4 +214,8 @@ footer {
     -webkit-column-gap: 2rem;
     column-gap: 2rem; */
   }
+}
+
+.gallery-lightbox > .close {
+  cursor: pointer;
 }
