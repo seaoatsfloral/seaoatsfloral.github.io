@@ -31,11 +31,9 @@
     })
     .style('opacity', 0.5);
 
-  d3.selectAll('.masonry img').each(function() {
-    var img = d3.select(this);
-    var src = img.attr('src');
-    img.attr('data-gallery-src', src);
-  });
-
-  initGallery(document);
+  // d3.selectAll('.masonry img').each(function() {
+  //   var img = d3.select(this);
+  //   var src = img.attr('src');
+  //   img.attr('data-gallery-src', src);
+  // });
 })();
